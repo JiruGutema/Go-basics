@@ -5,6 +5,7 @@ import (
 	"go-by-example/values"
 	"go-by-example/variables"
 	"go-by-example/helloworld"
+	"go-by-example/looping"
 )
 
 func main() {
@@ -18,5 +19,8 @@ helloworld.Helloworld()
 fmt.Println()
 fmt.Println("Printing the Values...")
 values.Values()
+fmt.Println()
+fmt.Println("Printing the For Loop examples...")
+forloop.Forloop()
 
 }
