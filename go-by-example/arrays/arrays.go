@@ -1,6 +1,8 @@
 package arrays
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Arrays() {
 	// we declare an array in a go, by specifying the size and type of elements
@@ -33,4 +35,24 @@ func Arrays() {
 	for index, value := range arr3 {
 		fmt.Printf("Element at index %d: %f\n", index, value)
 	}	
+
+	twoD := [2][3]int{
+		{1, 2,3},
+		{4,5,6},
+	}
+
+	fmt.Println("This is the 2d Array: ", twoD)
+
+	var matrix [3][4]int
+
+	n := 3
+	m := 4
+
+	for r := 0; r < n; r++ {
+		for c := 0; c < m; c++ {
+			matrix[r][c] = r * c
+		}
+	}
+
+	fmt.Println("This is the matrix after populating values: ", matrix)
 }
