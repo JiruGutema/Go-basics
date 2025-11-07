@@ -71,7 +71,3 @@ func Forloop() {
 
 }
 
-func Whileloop() {
-	// While loop in Go using for loop
-
-}
