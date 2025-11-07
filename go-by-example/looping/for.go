@@ -69,5 +69,20 @@ func Forloop() {
 		fmt.Println("num is ", num)
 	}
 
+	// ! Nested for loops
+	for i := 1; i <= 3; i++ {
+		for j := 1; j <= 2; j++ {
+			fmt.Printf("i: %d, j: %d\n", i, j)
+		}
+	}
+
+	// ! Using continue statement to skip an iteration
+	for i := 1; i <= 5; i++ {
+		if i%2 == 0 {
+			continue // Skip even numbers
+		}
+		fmt.Println("Odd number: ", i)
+	}
+
 }
 
