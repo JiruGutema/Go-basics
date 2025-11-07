@@ -7,6 +7,7 @@ import (
 	"go-by-example/helloworld"
 	"go-by-example/looping"
 	"go-by-example/if-else"
+	"go-by-example/switch"
 )
 
 func main() {
@@ -25,4 +26,7 @@ fmt.Println("Printing the For Loop examples...")
 forloop.Forloop()
 fmt.Println("Printing the If Else conditions here...")
 ifelse.Ifelse()
+fmt.Println("Printing the switch case conditions here")
+switchcase.SwitchExample()
+
 }
