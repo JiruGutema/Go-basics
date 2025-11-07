@@ -49,4 +49,16 @@ func Variables() {
 
 	// we use const keyword to declare constants that cannot be changed
 
+	// Grouped variable declaration. can be done using var() block
+	var(
+		firstName string = "Jiru"
+		lastName string = "Doe"
+		rollNumber int = 101
+		isEnrolled bool = true
+	)
+	
+	fmt.Println("First Name: ", firstName)
+	fmt.Println("Last Name: ", lastName)
+	fmt.Println("Roll Number: ", rollNumber)
+	fmt.Println("Is Enrolled: ", isEnrolled)
 }
