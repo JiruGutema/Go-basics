@@ -3,7 +3,7 @@ package arrays
 import (
 	"fmt"
 )
-
+// arrays in go are a fixed length of listing of the elements. 
 func Arrays() {
 	// we declare an array in a go, by specifying the size and type of elements
 	var arr [5]int // an array of 5 integers initialized to zero values
@@ -55,4 +55,5 @@ func Arrays() {
 	}
 
 	fmt.Println("This is the matrix after populating values: ", matrix)
+	
 }
