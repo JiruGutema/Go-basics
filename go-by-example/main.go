@@ -6,6 +6,7 @@ import (
 	"go-by-example/helloworld"
 	"go-by-example/if-else"
 	"go-by-example/looping"
+	maps "go-by-example/map"
 	"go-by-example/slices"
 	"go-by-example/switch"
 	"go-by-example/values"
@@ -34,5 +35,7 @@ func main() {
 	arrays.Arrays()
 	fmt.Println("Printing the Slice examples here...")
 	slices.Slices()
+	fmt.Println("Printing the Map examples here...")
+	maps.Map()
 
 }

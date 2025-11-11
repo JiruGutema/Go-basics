@@ -3,6 +3,7 @@ package slices
 import "fmt"
 
 // slices are a dynamic array in go. letting us having dynamic length of the elements.
+// to achieve that, just use the normal array syntax but without specifying the size of the array.
 
 func Slices() {
 	fmt.Println("This is the Slices example function.")
