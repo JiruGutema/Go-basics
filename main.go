@@ -3,14 +3,17 @@ package main
 import (
 	"fmt"
 	"go-by-example/arrays"
+	"go-by-example/closures"
 	"go-by-example/helloworld"
 	"go-by-example/if-else"
 	"go-by-example/looping"
 	maps "go-by-example/map"
+	"go-by-example/recursion"
 	"go-by-example/slices"
 	"go-by-example/switch"
 	"go-by-example/values"
 	"go-by-example/variables"
+	"go-by-example/variadic"
 )
 
 func main() {
@@ -37,5 +40,11 @@ func main() {
 	slices.Slices()
 	fmt.Println("Printing the Map examples here...")
 	maps.Map()
+	fmt.Println("Using custom sum function with variadic.")
+	variadic.MyCustomSum(1,2,3,4,5,6)
+	closures.Closures()
+	fmt.Println("Recursion function in go")
+	recursion.Fab(10)
+
 
 }
